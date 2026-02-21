@@ -27,5 +27,4 @@ public class ReservaRepository {
                 .filter(r -> r.getQuarto().getNumero() == numeroQuarto)
                 .toList();
     }
-
 }
